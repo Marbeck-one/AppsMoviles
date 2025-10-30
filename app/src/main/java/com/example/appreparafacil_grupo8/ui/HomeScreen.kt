@@ -72,7 +72,7 @@ fun HomeScreen() {
                 painter = painterResource(id = R.drawable.logo), // Carga la imagen desde res/drawable
                 contentDescription = "Logo de ReparaFacil",
                 modifier = Modifier
-                    .fillMaxWidth() // La imagen ocaaaaupa el ancho máximo.
+                    .fillMaxWidth() // La imagen ocupa el ancho máximo.
                     .height(150.dp), // Altura fija.
                 contentScale = ContentScale.Fit // Ajusta la imagen sin cortarla.
             )
